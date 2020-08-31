@@ -1,9 +1,8 @@
 import Head from "next/head"
-// import Link from 'next/link'
-import {Link, withTranslation} from '../i18n'
+import Link from 'next/link'
 
 import Layout from '../components/Layout'
-import BannerLanding from '../components/BannerLanding'
+import Banner from '../components/Banner'
 // import Bgallery from "../components/Bgallery";
 import ReactBnbGallery from "react-bnb-gallery";
 import React from "react";
@@ -18,7 +17,7 @@ const Violetta = ({t}) => (
         </Head>
 
         <div>
-            <BannerLanding />
+            <Banner />
 
             <PhotoGrid />
             <ReactBnbGallery

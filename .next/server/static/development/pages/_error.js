@@ -139,7 +139,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var _this = undefined,
-    _jsxFileName = "/Users/pier/Projects/nextjs-starter-forty/pages/_error.js";
+    _jsxFileName = "/Users/pier/Projects/nextjs_casescauri/pages/_error.js";
 
 
 

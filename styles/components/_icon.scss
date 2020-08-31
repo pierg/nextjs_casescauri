@@ -6,45 +6,63 @@
 
 /* Icon */
 
-	.icon {
-		@include icon;
-		border-bottom: none;
-		position: relative;
+.icon {
+	@include icon;
+	border-bottom: none;
+	position: relative;
 
-		> .label {
-			display: none;
+	> .label {
+		display: none;
+	}
+
+	&.alt {
+		&:before {
+			background-color: _palette(fg-bold);
+			border-radius: 100%;
+			color: _palette(bg);
+			display: inline-block;
+			height: 2em;
+			line-height: 2em;
+			text-align: center;
+			width: 2em;
 		}
-
-		&.alt {
-			&:before {
-				background-color: _palette(fg-bold);
-				border-radius: 100%;
-				color: _palette(bg);
-				display: inline-block;
-				height: 2em;
-				line-height: 2em;
-				text-align: center;
-				width: 2em;
-			}
+	}
+	&.style2 {
+		&:before {
+			border-radius: 2.75em;
+			display: inline-block;
+			height: 2.75em;
+			line-height: 2.75em;
+			width: 2.75em;
 		}
 	}
 
-	a.icon {
-		&.alt {
+	&.major {
+		display: block;
+		margin: 0 0 (_size(element-margin) * 0.5) 0;
+
+		&:before {
+			font-size: 1.25rem;
+		}
+	}
+}
+
+a.icon {
+	&.alt {
+		&:before {
+			@include vendor('transition', 'background-color #{_duration(transition)} ease-in-out');
+		}
+
+		&:hover {
 			&:before {
-				@include vendor('transition', 'background-color #{_duration(transition)} ease-in-out');
+				background-color: _palette(accent1);
 			}
+		}
 
-			&:hover {
-				&:before {
-					background-color: _palette(accent1);
-				}
-			}
-
-			&:active {
-				&:before {
-					background-color: desaturate(darken(_palette(accent1), 15), 5);
-				}
+		&:active {
+			&:before {
+				background-color: desaturate(darken(_palette(accent1), 15), 5);
 			}
 		}
 	}
+}

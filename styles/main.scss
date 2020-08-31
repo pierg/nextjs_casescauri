@@ -46,6 +46,7 @@
   }
 }
 
+
 // Base.
 
 @import 'base/page';
@@ -75,4 +76,8 @@
 @import 'layout/wrapper';
 @import 'layout/menu';
 
-@import 'components/image-gallery';
+
+//@import 'items';
+
+// Custom packages
+@import 'image-gallery';

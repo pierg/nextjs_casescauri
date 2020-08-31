@@ -3,7 +3,7 @@ import Link from 'next/link'
 // import { Link } from '../i18n'
 
 import Layout from '../components/Layout'
-import BannerLanding from '../components/BannerLanding'
+import Banner from '../components/Banner'
 
 export default () => (
     <Layout>
@@ -13,7 +13,7 @@ export default () => (
         </Head>
 
         <div>
-            <BannerLanding />
+            <Banner />
 
             <div id="main">
                 <section id="one">

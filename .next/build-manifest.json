@@ -1,6 +1,6 @@
 {
   "devFiles": [
-    "static/development/dll/dll_f662e24b4c4597a84db9.js"
+    "static/development/dll/dll_29a32524cd1668abf5ae.js"
   ],
   "pages": {
     "/_app": [
@@ -11,15 +11,7 @@
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/index": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
     "/limoni": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ]
