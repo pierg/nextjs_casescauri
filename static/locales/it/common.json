@@ -1,0 +1,7 @@
+{
+  "welcome_title": "Ein einfaches Beispiel",
+  "change-locale": "English Version",
+  "to-second-page": "Zur zweiten Seite",
+  "error-with-status": "Auf dem Server ist ein Fehler ({{statusCode}}) aufgetreten",
+  "error-without-status": "Auf dem Server ist ein Fehler aufgetreten"
+}
