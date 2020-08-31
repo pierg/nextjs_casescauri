@@ -11,6 +11,10 @@
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
+    "/elements": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
     "/limoni": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"

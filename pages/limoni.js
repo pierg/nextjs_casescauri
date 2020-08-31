@@ -7,6 +7,7 @@ import {withTranslation} from '../i18n'
 import Banner from '../components/Banner'
 import Carousel from "../components/Carousel"
 import Features from "../components/Features";
+import DescriptionList from "../components/DescriptionList";
 
 
 const Limoni = (props) => (
@@ -47,18 +48,7 @@ const Limoni = (props) => (
                             <a className="image"><img src="/static/images/pic09.jpg" alt=""/></a>
                         </Link>
                         <div className="content">
-                            <div className="inner">
-                                <header className="major">
-                                    <h3>Rhoncus magna</h3>
-                                </header>
-                                <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc
-                                    rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna
-                                    lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat
-                                    tincidunt. Vivamus et sagittis tempus.</p>
-                                <ul className="actions">
-                                    <li><Link href="/generic"><a className="button">Learn more</a></Link></li>
-                                </ul>
-                            </div>
+                            <DescriptionList name="limoni" />
                         </div>
                     </section>
                     <section>

@@ -53,6 +53,32 @@ const Features = (props) => {
                                 </div>
                             </div>
                         </div>
+                        <div className="row 50% uniform">
+                            <div className="3u">
+                                <div className="inner">
+                                    <FontAwesomeIcon icon={"bicycle"} size="3x"/>
+                                    <h3>{props.t("bicycles")}</h3>
+                                </div>
+                            </div>
+                            <div className="3u">
+                                <div className="inner">
+                                    <FontAwesomeIcon icon={"wifi"} size="3x"/>
+                                    <h3>{props.t("internet")}</h3>
+                                </div>
+                            </div>
+                            <div className="3u">
+                                <div className="inner">
+                                    <FontAwesomeIcon icon={"parking"} size="3x"/>
+                                    <h3>{props.t("private_parking")}</h3>
+                                </div>
+                            </div>
+                            <div className="3u">
+                                <div className="inner">
+                                    <FontAwesomeIcon icon={"tv"} size="3x"/>
+                                    <h3>{props.t("tv")}</h3>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             )
