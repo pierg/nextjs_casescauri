@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types'
 import Link from 'next/link'
-import {i18n, withTranslation} from '../i18n'
+import {withTranslation} from '../i18n'
 
 const Menu = (props) => (
     <nav id="menu">

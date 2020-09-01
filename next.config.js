@@ -25,7 +25,7 @@ module.exports = {
           { loader: 'sass-loader',
             options: {
               outputStyle: 'compressed', // These options are from node-sass: https://github.com/sass/node-sass
-              includePaths: ['styles', 'node_modules']
+              includePaths: ['styles_original', 'node_modules']
                 .map((d) => path.join(__dirname, d))
                 .map((g) => glob.sync(g))
                 .reduce((a, c) => a.concat(c), [])

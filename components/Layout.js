@@ -1,5 +1,5 @@
 import Head from "next/head"
-import stylesheet from 'styles/main.scss'
+import stylesheet from 'styles_origianl/main.scss'
 
 import Header from './Header'
 import Menu from './Menu'
@@ -41,10 +41,17 @@ class Layout extends React.Component {
                     <title>Next.js Starter</title>
                     <meta name="description" content="Next.js Starter - Forty" />
                     <link href="/static/css/skel.css" rel="stylesheet" />
+                    {/*<link href="/static/css/main.css" rel="stylesheet" />*/}
+                    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
                     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet" />
+                    {/*<link href="/static/css/fontawesome-all.min.css" rel="stylesheet" />*/}
                     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,600,600i" rel="stylesheet" />
+                    <noscript>
+                        <link href="/static/css/noscript.css" rel="stylesheet" />
+                    </noscript>
                 </Head>
                 <style dangerouslySetInnerHTML={{ __html: stylesheet }} />
+
 
                 <div id="wrapper">
                     <Header onToggleMenu={this.handleToggleMenu} />
@@ -52,6 +59,7 @@ class Layout extends React.Component {
                     <Contact />
                     <Footer />
                 </div>
+
                 <Menu onToggleMenu={this.handleToggleMenu} />
 
             </div>
