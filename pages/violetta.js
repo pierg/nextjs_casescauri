@@ -4,7 +4,6 @@ import Link from 'next/link'
 import Layout from '../components/Layout'
 import Banner from '../components/Banner'
 // import Bgallery from "../components/Bgallery";
-import ReactBnbGallery from "react-bnb-gallery";
 import React from "react";
 
 

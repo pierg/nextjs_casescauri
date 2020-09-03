@@ -1,23 +1,60 @@
 {
-  "devFiles": [
-    "static/development/dll/dll_29a32524cd1668abf5ae.js"
-  ],
+  "devFiles": [],
   "pages": {
     "/_app": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
+      "static/runtime/webpack-2ef50c24cc8d478adafc.js",
+      "static/chunks/commons.c0a2a3cc48142be30cf2.js",
+      "static/runtime/main-0cb8c3ce9e3227b4ca8b.js"
     ],
     "/_error": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
+      "static/runtime/webpack-2ef50c24cc8d478adafc.js",
+      "static/chunks/commons.c0a2a3cc48142be30cf2.js",
+      "static/runtime/main-0cb8c3ce9e3227b4ca8b.js"
+    ],
+    "/about": [
+      "static/runtime/webpack-2ef50c24cc8d478adafc.js",
+      "static/chunks/commons.c0a2a3cc48142be30cf2.js",
+      "static/runtime/main-0cb8c3ce9e3227b4ca8b.js"
+    ],
+    "/book": [
+      "static/runtime/webpack-2ef50c24cc8d478adafc.js",
+      "static/chunks/commons.c0a2a3cc48142be30cf2.js",
+      "static/runtime/main-0cb8c3ce9e3227b4ca8b.js"
+    ],
+    "/chalet": [
+      "static/runtime/webpack-2ef50c24cc8d478adafc.js",
+      "static/chunks/commons.c0a2a3cc48142be30cf2.js",
+      "static/runtime/main-0cb8c3ce9e3227b4ca8b.js"
+    ],
+    "/elements": [
+      "static/runtime/webpack-2ef50c24cc8d478adafc.js",
+      "static/chunks/commons.c0a2a3cc48142be30cf2.js",
+      "static/runtime/main-0cb8c3ce9e3227b4ca8b.js"
     ],
     "/index": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
+      "static/runtime/webpack-2ef50c24cc8d478adafc.js",
+      "static/chunks/commons.c0a2a3cc48142be30cf2.js",
+      "static/runtime/main-0cb8c3ce9e3227b4ca8b.js"
+    ],
+    "/limoni": [
+      "static/runtime/webpack-2ef50c24cc8d478adafc.js",
+      "static/chunks/commons.c0a2a3cc48142be30cf2.js",
+      "static/runtime/main-0cb8c3ce9e3227b4ca8b.js"
+    ],
+    "/location": [
+      "static/runtime/webpack-2ef50c24cc8d478adafc.js",
+      "static/chunks/commons.c0a2a3cc48142be30cf2.js",
+      "static/runtime/main-0cb8c3ce9e3227b4ca8b.js"
+    ],
+    "/violetta": [
+      "static/runtime/webpack-2ef50c24cc8d478adafc.js",
+      "static/chunks/commons.c0a2a3cc48142be30cf2.js",
+      "static/runtime/main-0cb8c3ce9e3227b4ca8b.js"
     ],
     "/": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
+      "static/runtime/webpack-2ef50c24cc8d478adafc.js",
+      "static/chunks/commons.c0a2a3cc48142be30cf2.js",
+      "static/runtime/main-0cb8c3ce9e3227b4ca8b.js"
     ]
   }
 }
