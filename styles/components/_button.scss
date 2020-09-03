@@ -53,6 +53,8 @@
 		}
 
 		&.fit {
+			display: block;
+			margin: 0 0 (_size(element-margin) * 0.5) 0;
 			width: 100%;
 		}
 
@@ -60,7 +62,7 @@
 			font-size: 0.6em;
 		}
 
-		&.large {
+		&.big {
 			font-size: 1.25em;
 			height: 3em;
 			line-height: 3em;
@@ -101,12 +103,12 @@
 				}
 			}
 
-			@include breakpoint('<=large') {
+			@include breakpoint(large) {
 				padding-right: 5em;
 			}
 		}
 
-		&.primary {
+		&.special {
 			background-color: _palette(fg-bold);
 			box-shadow: none;
 			color: _palette(bg);

@@ -74,6 +74,10 @@
 						line-height: 4em;
 						text-decoration: none;
 						text-transform: uppercase;
+
+						> span {
+							display: block;
+						}
 					}
 
 					> .button {
@@ -145,7 +149,7 @@
 		}
 	}
 
-	body.is-menu-visible {
+	.body.is-menu-visible {
 		#wrapper {
 			@include vendor('filter', 'blur(0.5em)');
 		}
